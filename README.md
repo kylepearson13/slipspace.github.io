@@ -1,4 +1,4 @@
 slipspace.github.io
 ===================
 
-Public website
+Public website for slipspace.co

@@ -1,0 +1,16 @@
+# Site settings
+title: "Slipspace: Error management for services companies"
+email: hi@slipspace.co
+description: "Slipspace is an Auckland based start up which collects and analyzes errors so your support team can answer the questionsthat are important to your customers."
+baseurl: ""
+url: "http://slipspace.co"
+twitter_username: getslipspace
+github_username:  slipspace
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+highlighter: rouge
+permalink: /blog/:title
+title_base: "Slipspace:"
+exclude: [tools]

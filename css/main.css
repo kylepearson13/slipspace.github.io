@@ -1,0 +1,184 @@
+/***********************************
+           GLOBAL
+***********************************/
+
+.slipspace-blue {
+    color: #2182cd;
+}
+
+body.slipspace{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+}
+
+.subtext {
+    color: #7e7e7e;
+}
+
+/***********************************
+               NAV
+***********************************/
+
+.slipspace .navbar.navbar-slipspace {
+    background-color: white;
+    border-bottom: black 1px solid;
+    margin-bottom: 0;
+}
+
+.slipspace .navbar-slipspace .navbar-brand {
+    padding: 7px;
+    color: black;
+    font-size: 2em;
+}
+
+/***********************************
+              HERO
+***********************************/
+
+.hero-row {
+    background-color: #4f7098;
+    padding-top: 20px;
+}
+
+.hero-row .screenshot{
+    width: 560px;
+}
+
+.hero-row h1,
+.slipspace .hero-row h2 {
+    color: white;
+    -webkit-font-smoothing: antialiased;
+}
+
+.hero-row h1{
+    padding-top: 20px;
+}
+
+.slipspace .hero-row p {
+    padding-bottom: 20px;
+    font-size: 1.8em;
+    color: white;
+}
+
+/***********************************
+            FOOTER
+***********************************/
+
+.slipspace #footer-section {
+    text-align: center;
+    padding-top: 20px;
+}
+
+/***********************************
+           SUBSCRIBE
+***********************************/
+.subscribe-row {
+    padding: 0 20px 0 20px;
+    text-align: center;
+    background-color: #e9f0f7;
+}
+
+#mc_embed_signup {
+    max-width: 700px;
+    margin: auto;
+}
+
+/***********************************
+              PERSON
+***********************************/
+.slipspace .person-row {
+    text-align: center;
+}
+
+.slipspace .person-row ul{
+    margin: auto;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.slipspace .person-row h2 {
+    padding: 20px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.slipspace .person-row .tab-content {
+    color: white;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.slipspace .person-row .tab-content .container {
+    color: white;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 700px;
+}
+
+.slipspace .person-row .tab-content h3 {
+    font-size: 2.5em;
+}
+
+.slipspace .person-row .tab-content p {
+    font-size: 1.5em;
+    color: #e5e5e5;
+}
+
+.slipspace .nav-pills > li.active > a#devpill {
+    background-color: #9e2b2b;
+}
+
+.slipspace .person-row .tab-content #developers-panel {
+    background-color: #9e2b2b;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.slipspace .nav-pills > li.active > a#fontlinepill {
+    background-color: #6490b3;
+}
+
+.slipspace .person-row .tab-content #frontline-staff-panel {
+    background-color: #6490b3;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.slipspace .nav-pills > li.active > a#ctopill {
+    background-color: #b8682d;
+}
+
+.slipspace .person-row .tab-content #cto-panel {
+    background-color: #b8682d;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.slipspace .nav-pills > li.active > a#customerspill {
+    background-color: #77547e;
+}
+
+.slipspace .person-row .tab-content #customer-panel {
+    background-color: #77547e;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/***********************************
+         DROP DOWN BARS
+***********************************/
+.slipspace .navbar-toggle .icon-bars-button{
+  display: inline-block;
+  vertical-align:middle;
+}
+
+.slipspace .navbar-toggle .icon-bar {
+  margin-bottom:2px;
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: #cccccc;
+  border-radius: 1px;
+}

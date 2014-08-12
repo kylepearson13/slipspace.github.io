@@ -13,7 +13,12 @@ You can manually download the JavaScript file for your project. We have both a [
 
 Or you can install the library using the NuGet package manager
 
+<pre class="prettyprint">
+
     PM> Install-Package slipspace.js
+
+
+</pre>
 
 The library has no dependencies so you can install it on any old website.
  
@@ -24,7 +29,7 @@ In your webpage just reference the library and supply your API Key.
 
 <pre class="prettyprint">
 
-    &lt;script data-apikey="{YOUR API KEY}" src="/Scripts/slipspace-1.0.0.min.js"&gt;&lt;/script&gt;
+  &lt;script data-apikey="{YOUR API KEY}" src="/Scripts/slipspace-1.0.0.min.js"&gt;&lt;/script&gt;
 
 
 </pre>

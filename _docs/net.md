@@ -52,7 +52,7 @@ Step 2: Add the Slipspace configuration section
 
 <pre class="prettyprint">
 
-    &lt;SlipspaceSettings apikey="{YOUR_API_KEY}" /&gt;
+  &lt;SlipspaceSettings apikey="{YOUR_API_KEY}" /&gt;
  
 
 </pre>
@@ -61,11 +61,11 @@ Then you can either add a HttpModule which sends up all unhandled exceptions to 
 
 <pre class="prettyprint">
 
-    &lt;system.webServer&gt;
-      &lt;modules&gt;
-        &lt;add name="SlipspaceErrorModule" type="Slipspace.Sharp.Web.SlipspaceHttpModule" /&gt;
-      &lt;/modules&gt;
-    &lt;/system.webServer&gt;
+  &lt;system.webServer&gt;
+    &lt;modules&gt;
+      &lt;add name="SlipspaceErrorModule" type="Slipspace.Sharp.Web.SlipspaceHttpModule" /&gt;
+    &lt;/modules&gt;
+  &lt;/system.webServer&gt;
   
 
 </pre>
@@ -74,7 +74,7 @@ Or send up the exceptions manually
 
 <pre class="prettyprint">
 
-    SlipspaceWebClient.New().SendInBackground(exception)
+  SlipspaceWebClient.New().SendInBackground(exception)
 	  
 
 </pre>

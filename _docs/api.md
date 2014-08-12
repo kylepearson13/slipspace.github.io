@@ -33,11 +33,11 @@ To get started the request can be as light as this, go ahead, POST it to the end
 
 <pre class="prettyprint">
     
-{
-  "exceptionData" : {
-    "className":"System.Web.HttpException"
+  {
+    "exceptionData" : {
+      "className":"System.Web.HttpException"
+    }
   }
-}
 
 
 </pre>
@@ -47,157 +47,157 @@ Below is a description of the complete data format with an explanation of all th
 
 <pre class="prettyprint">
     
-{
+  {
 
-  //The display name for this error, used as the group title if this is the initial error in the group.
-  //Defaults to the exception class and exception message.
-  "name": "HttpException: The page does not exist.",
+    //The display name for this error, used as the group title if this is the initial error in the group.
+    //Defaults to the exception class and exception message.
+    "name": "HttpException: The page does not exist.",
 
-  //The machine that the error occurred on.
-  //Useful in tracking down problems with individual instances in a server farm.
-  //Max 255 characters.
-  "machineName": "ravenholm",
+    //The machine that the error occurred on.
+    //Useful in tracking down problems with individual instances in a server farm.
+    //Max 255 characters.
+    "machineName": "ravenholm",
 
-  //The environment that the error occurred in.
-  //Useful for tracking an errors as the progress from development to production.
-  //Max 255 characters, defaults to "production".
-  "environment": "production",
+    //The environment that the error occurred in.
+    //Useful for tracking an errors as the progress from development to production.
+    //Max 255 characters, defaults to "production".
+    "environment": "production",
 
-  //The time that the error occurred.
-  //Useful when submitting errors after they occurred in occasionally connected situations.
-  //Must be in the ISO 8601 format, defaults to the current time (UTC).
-  "occurredOn": "2014-07-23T08:39:14+00:00",
+    //The time that the error occurred.
+    //Useful when submitting errors after they occurred in occasionally connected situations.
+    //Must be in the ISO 8601 format, defaults to the current time (UTC).
+    "occurredOn": "2014-07-23T08:39:14+00:00",
 
-  //The platform that the environment was running on.
-  //Max 255 characters.
-  "platform": "azure websites",
+    //The platform that the environment was running on.
+    //Max 255 characters.
+    "platform": "azure websites",
 
-  //The language that the application is written in.
-  //Max 20 characters.
-  "language": "C#",
+    //The language that the application is written in.
+    //Max 20 characters.
+    "language": "C#",
 
-  //A unique string representing the user affected.
-  //Used to power the "number of users affected" feature, if the identifier is an email we will attempt to get the users gravatar.
-  //Max 255 characters
-  "userIdentifier": "eli.vance@blackmesa.research",
+    //A unique string representing the user affected.
+    //Used to power the "number of users affected" feature, if the identifier is an email we will attempt to get the users gravatar.
+    //Max 255 characters
+    "userIdentifier": "eli.vance@blackmesa.research",
 
-  //The fingerprint of this error.
-  //This parameter is usually omitted, it is used if you want to override the default slipspace grouping algorithm.
-  //Exceptions with the same fingerprint are grouped together.
-  //Max 255 characters.
-  "fingerprint": "VGhlIGNha2UgaXMgYSBsaWU=",
+    //The fingerprint of this error.
+    //This parameter is usually omitted, it is used if you want to override the default slipspace grouping algorithm.
+    //Exceptions with the same fingerprint are grouped together.
+    //Max 255 characters.
+    "fingerprint": "VGhlIGNha2UgaXMgYSBsaWU=",
 
-  //The version of the application that this error occurred in.
-  //Used when re-opening resolved exception groupings.
-  //Max 255 characters.
-  "version": "1.0.0",
+    //The version of the application that this error occurred in.
+    //Used when re-opening resolved exception groupings.
+    //Max 255 characters.
+    "version": "1.0.0",
 
-  //The correlation id for the exception.
-  //Usually a Guid, useful to generate and display to end users if they want to contact you about a specific error.
-  //Max 255 characters.
-  "correlationId": "10c1d3bb-05a0-40d9-b8cd-b78d148d41e0",
+    //The correlation id for the exception.
+    //Usually a Guid, useful to generate and display to end users if they want to contact you about a specific error.
+    //Max 255 characters.
+    "correlationId": "10c1d3bb-05a0-40d9-b8cd-b78d148d41e0",
 
-  //Custom data submitted by the application in a name-value pair format.
-  //Usually holds some additional contextural inforamtion that may aid in debugging the problem
-  //Max serialized size of 32 kB
-  "customData": {
-    "suit": "Mark V",
-    "energyLevel": "low"
-  },
+    //Custom data submitted by the application in a name-value pair format.
+    //Usually holds some additional contextural inforamtion that may aid in debugging the problem
+    //Max serialized size of 32 kB
+    "customData": {
+      "suit": "Mark V",
+      "energyLevel": "low"
+    },
 
-  //Custom data submitted about the environment by the application in a name-value pair format.
-  //You can add arbitrary keys but these are the ones slipspace understands
-  //Max serialized size of 32 kB
-  "environmentData": {
-    "locale": "English (United States)",    //The culture settings of the host device
-    "utcOffset": 0.0,                       //The offset from GMT of the host device
-    "osVersion": "6.2.9200",                //The version of the OS that the application was running on
-    "processorCount": 1,                   
-    "architecture": "AMD64",                
-    "totalPhysicalMemory": 314,
-    "availablePhysicalMemory": 100,
-    "totalVirtualMemory": 8311653,
-    "availableVirtualMemory": 8301532,
-    "cpu": "Intel(R) Xeon(R)",
-    "diskSpaceFree": 156.13,
-    //...other custom environmental information
-  },
+    //Custom data submitted about the environment by the application in a name-value pair format.
+    //You can add arbitrary keys but these are the ones slipspace understands
+    //Max serialized size of 32 kB
+    "environmentData": {
+      "locale": "English (United States)",    //The culture settings of the host device
+      "utcOffset": 0.0,                       //The offset from GMT of the host device
+      "osVersion": "6.2.9200",                //The version of the OS that the application was running on
+      "processorCount": 1,                   
+      "architecture": "AMD64",                
+      "totalPhysicalMemory": 314,
+      "availablePhysicalMemory": 100,
+      "totalVirtualMemory": 8311653,
+      "availableVirtualMemory": 8301532,
+      "cpu": "Intel(R) Xeon(R)",
+      "diskSpaceFree": 156.13,
+      //...other custom environmental information
+    },
 
-  //Details about the exception that occurred.
-  //Required, max serialized size of 60 kB
-  "exceptionData": {
+    //Details about the exception that occurred.
+    //Required, max serialized size of 60 kB
+    "exceptionData": {
 
-    //The exact same structure for an inner exception
-    "innerException": null,
+      //The exact same structure for an inner exception
+      "innerException": null,
             
-    //The message giving some human readable details about the error
-    "message":"HttpException: The page does not exist.",
+      //The message giving some human readable details about the error
+      "message":"HttpException: The page does not exist.",
 
-    //The class name of the exception
-    //Required
-    "className":"System.Web.HttpException",
+      //The class name of the exception
+      //Required
+      "className":"System.Web.HttpException",
             
-    //Custom data about the exception in name-value pair format
-    "data":{
-      "key": "value",
+      //Custom data about the exception in name-value pair format
+      "data":{
+        "key": "value",
+        //And so on...
+      },
+    
+      //The stack trace of the exception, is an array of frames
+      "trace":[{
+        "lineNumber": 42,
+        "methodName": "Detail(int id)",
+        "className": "SomeWebsite.Controllers.SomeController",
+        "fileName": "Some filename"
+      },
       //And so on...
     },
-    
-    //The stack trace of the exception, is an array of frames
-    "trace":[{
-      "lineNumber": 42,
-      "methodName": "Detail(int id)",
-      "className": "SomeWebsite.Controllers.SomeController",
-      "fileName": "Some filename"
+
+    //Details about the HTTP Request that triggered the exception
+    //Useful when monitoring exceptions from web applications
+    //Max serialized size of 60 kB
+    "requestData": {
+
+      "hostName": "blackmesa.research",
+      "url": "/resonance/cascade",
+      "method": "POST",
+      "ipAddress": "23.100.31.73",
+
+      "headers": {
+        "Content-Type": "application/x-www-form-urlencoded",
+        //...other headers
+      },
+
+      "cookies": {
+        "_ga": "Google",
+        //...other cookies
+      },
+
+      "serverData": {
+        "REQUEST_METHOD": "Post",
+        //...other server data
+      },
+
+      "queryString": {
+        "name": "Alyx Vance",
+        //...other query string parameters
+      },
+
+      "formData": {
+        "name": "Gordon Freeman",
+        //...other submitted form fields
+      },
+
+      //Useful if the above parameters miss fields that you would like to process later.
+      "rawData": "...raw request..."
     },
-    //And so on...
-  },
-
-  //Details about the HTTP Request that triggered the exception
-  //Useful when monitoring exceptions from web applications
-  //Max serialized size of 60 kB
-  "requestData": {
-
-    "hostName": "blackmesa.research",
-    "url": "/resonance/cascade",
-    "method": "POST",
-    "ipAddress": "23.100.31.73",
-
-    "headers": {
-      "Content-Type": "application/x-www-form-urlencoded",
-      //...other headers
-    },
-
-    "cookies": {
-      "_ga": "Google",
-      //...other cookies
-    },
-
-    "serverData": {
-      "REQUEST_METHOD": "Post",
-      //...other server data
-    },
-
-    "queryString": {
-      "name": "Alyx Vance",
-      //...other query string parameters
-    },
-
-    "formData": {
-      "name": "Gordon Freeman",
-      //...other submitted form fields
-    },
-
-    //Useful if the above parameters miss fields that you would like to process later.
-    "rawData": "...raw request..."
-  },
         
-  //The notifier used to submit the exception to slipspace
-  "notifier": {
-    "name": "Breencast",    //The name of the notifier
-    "version": "17"         //The version of the notifier
+    //The notifier used to submit the exception to slipspace
+    "notifier": {
+      "name": "Breencast",    //The name of the notifier
+      "version": "17"         //The version of the notifier
+    }
   }
-}
 
 
 </pre>

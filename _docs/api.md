@@ -1,7 +1,6 @@
 ---
 layout: docs
 title: RESTful API Documentation
-permalink: /docs/api
 ---
 
 ##Overview

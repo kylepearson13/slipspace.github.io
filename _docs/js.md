@@ -1,7 +1,6 @@
 ---
 layout: docs
 title: JavaScript Documentation
-permalink: /docs/js
 ---
 
 ##Getting started

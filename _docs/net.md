@@ -1,7 +1,6 @@
 ---
 layout: docs
 title: .NET Documentation
-permalink: /docs/net
 ---
 
 ##Getting started

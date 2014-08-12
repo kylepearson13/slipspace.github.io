@@ -17,7 +17,9 @@ module.exports = function (grunt) {
                     '../scripts/<%= pkg.name %>.core-<%= pkg.version %>.js': [
                         '../scripts/google-analytics.js',
                         '../scripts/jquery-*.js',
-                        '../scripts/bootstrap.js'
+                        '../scripts/bootstrap.js',
+                        '../scripts/pretty.js',
+                        '../scripts/site.js'
                     ],
                 }
             },
@@ -53,8 +55,9 @@ module.exports = function (grunt) {
         watch: {
             files: [
                 '../_includes/*.html',
+                '../_docs/*.md',
                 '../_layouts/*.html',
-                '../_posts/*.markdown',
+                '../_posts/*.md',
                 '../css/main.css',
                 '../_config.yml',
                 '../index.html'

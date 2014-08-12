@@ -3,6 +3,10 @@ layout: docs
 title: JavaScript Documentation
 ---
 
+##JavaScript
+
+We provide support for tracking errors that occur in your JavaScript code inside the user's browser.
+
 ##Getting started
 
 You can manually download the JavaScript file for your project. We have both a [minified production version](https://github.com/slipspace/slipspace.js/blob/master/build/slipspace-1.0.0.min.js) and [development version](https://github.com/slipspace/slipspace.js/blob/master/build/slipspace-1.0.0.js) available.

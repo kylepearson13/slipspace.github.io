@@ -3,6 +3,10 @@ layout: docs
 title: .NET Documentation
 ---
 
+##.NET Framework
+
+We provide support for tracking errors that occur in your .NET applications
+
 ##Getting started
 
 The easiest way to get started is to [grab the NuGet package](https://www.nuget.org/packages/slipspace.sharp/). It's called slipspace.sharp and you can install it using the NuGet package manager.

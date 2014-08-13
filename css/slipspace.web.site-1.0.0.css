@@ -217,9 +217,73 @@ body.slipspace{
 
 #net-framework,
 #javascript, 
-#overview {
+#overview,
+#press-releases {
     margin-top: 0;
     padding-top: 0;
+}
+
+/***********************************
+             PRESS
+***********************************/
+
+.press-nav {
+    list-style: none;
+    background-color: #fafafb;
+    border: 1px solid #cccccc;
+    padding: 0;
+}
+
+.press-nav li.item{
+    padding: 5px 0 5px 15px;
+}
+
+.press-nav li.heading {
+    font-weight: bold;
+}
+
+.press-nav .nav {
+    padding: 0;
+}
+
+.press-nav .nav li.spacer {
+    height: 2px;
+    background-color: #cccccc;
+    border: 0;
+}
+
+.press-nav .nav li {
+    border: 1px solid;
+    border-right-color: #fafafb;
+    border-left-color: #fafafb;
+    border-bottom-color: #eee;
+    border-top-color: #eee; 
+    margin: 0;
+}
+
+#press-container h3 {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+}
+
+#press-container h4 {
+    margin-top: 0;
+    padding-top: 0;
+   margin-bottom: 20px;
+    padding-bottom: 0;
+}
+
+#press-container p {
+    line-height: 1.8em;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+}
+
+#press-container a .sub {
+    color: lightgray;
+    font-style: italic;
 }
 
 /***********************************

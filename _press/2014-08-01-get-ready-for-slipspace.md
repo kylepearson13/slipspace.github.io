@@ -22,6 +22,8 @@ Slipspace enables support teams to truly excel at their jobs by giving them valu
 
 Slipspace gives support a holistic view of all errors across all applications by installing a small component into each application. It then surfaces the information in an easy to use interface which helps them gauge the health of the deployments they're monitoring. Developers can focus on fixing errors rather than teasing out information from vague bug reports as Slipspace records all the details about the error and groups them automatically. It also offers optional client facing tools so a client can check vital information such as the status of an error before deciding if it's important enough to call in about.
 
+"Slipspace isn't aiming to be all things to all people - but at this early stage the app has received overwhelmingly positive feedback from our target market" Michael said.
+
 Slipspace currently supports .NET and JavaScript with additional languages coming soon. There is also a RESTful API which developers can use to add Slipspace support to their framework or language of choice.
 
 Slipspace has been under development for two and a half months and will be launching mid-October. It is completely free to use while in beta with pricing to be announced as soon as it becomes available.

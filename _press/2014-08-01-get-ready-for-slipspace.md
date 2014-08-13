@@ -1,7 +1,7 @@
 ---
 layout: press
 title: "Get ready for slipsapce: error management built for services companies."
-permalink: /press/get-ready-for-slipspace
+permalink: /press/get-ready-for-slipspace.html
 date: August 8, 2014
 ---
 
@@ -28,9 +28,9 @@ Slipspace has been under development for two and a half months and will be launc
 
 **About solve.solutions**
 
-[solve.solutions](http://solve.solutions) is a botique services firm based in Auckland, NZ. We are committed to helping New Zealand startups succeed. 
+[solve.solutions](http://solve.solutions) is a boutique services firm based in Auckland, NZ. We are committed to helping New Zealand startups succeed. 
 We specialise in identifying what's required in getting a minimal viable product (MVP) built.
-[Slipspace](http://slipspace.co) is our first completly in-house project which was built to manage our clients applications.
+[Slipspace](http://slipspace.co) is our first completely in-house project which was built to manage our clients applications.
 
 **Contact**
 

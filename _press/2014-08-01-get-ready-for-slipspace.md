@@ -1,7 +1,7 @@
 ---
 layout: press
 title: "Get ready for slipsapce: error management built for services companies."
-permalink: /press/get-ready-for-slipspace.html
+permalink: /press/get-ready-for-slipspace
 date: August 8, 2014
 ---
 

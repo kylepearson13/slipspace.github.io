@@ -1,15 +1,15 @@
 ---
 layout: press
-title: "Get ready for slipsapce: new auckland based startup launches its beta programme."
+title: "Get ready for slipspace: new auckland based startup launches its beta programme."
 permalink: /press/get-ready-for-slipspace.html
-date: August 8, 2014
+date: August 10, 2014
 ---
 
-###August 8, 2014 - Get ready for slipsapce: new auckland based startup launches its beta programme.
+###August 10, 2014 - Get ready for slipspace: new auckland based startup launches its beta programme.
 
-####**Get ready for slipsapce: new auckland based startup launches its beta programme.**
+####**Get ready for slipspace: new auckland based startup launches its beta programme.**
 
-**Auckland, NZ, August 8, 2014** - [solve.solutions](http://solve.solutions) are proud to announce their first product, [Slipspace](http://slipspace.co) - the best way for software services companies to discover, track, and manage software errors automatically.
+**Auckland, NZ, August 10, 2014** - [solve.solutions](http://solve.solutions) are proud to announce their first product, [Slipspace](http://slipspace.co) - the best way for software services companies to discover, track, and manage software errors automatically.
 
 Slipspace is currently in closed beta and actively looking for strategic partners in the software services industry to help refine the vision for launch. 
 The program is filling up fast with only 19 spots left and is open to everyone from freelances all the way up to major practices.
@@ -26,13 +26,13 @@ Slipspace gives support a holistic view of all errors across all applications by
 
 Slipspace currently supports .NET and JavaScript with additional languages coming soon. There is also a RESTful API which developers can use to add Slipspace support to their framework or language of choice.
 
-Slipspace has been under development for two and a half months and will be launching mid-October. It is completely free to use while in beta with pricing to be announced as soon as it becomes available.
+Slipspace is scheduled to launch mid-October and is completely free to use while in beta. Pricing to be announced as soon as it becomes available.
 
 **About solve.solutions**
 
 [solve.solutions](http://solve.solutions) is a boutique services firm based in Auckland, NZ. We are committed to helping New Zealand startups succeed. 
 We specialise in identifying what's required in getting a minimal viable product (MVP) built.
-[Slipspace](http://slipspace.co) is our first completely in-house project which was built to manage our clients applications.
+[Slipspace](http://slipspace.co) is our first completely in-house project which was built to manage our client's applications.
 
 **Contact**
 

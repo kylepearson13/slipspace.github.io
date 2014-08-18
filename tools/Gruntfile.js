@@ -16,7 +16,7 @@ module.exports = function (grunt) {
                     ],
                     '../scripts/<%= pkg.name %>.core-<%= pkg.version %>.js': [
                         '../scripts/google-analytics.js',
-                        '../scripts/jquery-*.js',
+                        '../scripts/jquery-1.11.1.js',
                         '../scripts/bootstrap.js',
                         '../scripts/pretty.js',
                         '../scripts/site.js'
@@ -56,6 +56,7 @@ module.exports = function (grunt) {
             files: [
                 '../_includes/*.html',
                 '../_docs/*.md',
+                '../scripts/site.js',
                 '../_press/*.md',
                 '../_layouts/*.html',
                 '../_posts/*.md',

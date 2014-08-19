@@ -76,10 +76,20 @@ Below is a description of the complete data format with an explanation of all th
     //Max 20 characters.
     "language": "C#",
 
-    //A unique string representing the user affected.
-    //Used to power the "number of users affected" feature, if the identifier is an email we will attempt to get the users gravatar.
+    //The severity of an error
+    //defaults to 2
+    //Levels: 1 (critical), 2 (error), 3 (warning), 4 (information), 5 (verbose)
+    "level": 2,
+
+    //An object representing the user affected.
+    //uuid: Used to power the "number of users affected" feature.
+    //name & email: Used to supply a list of affected users.
     //Max 255 characters
-    "userIdentifier": "eli.vance@blackmesa.research",
+    "userData": {
+	  "uuid": "642c6a29-6f05-44c6-bd65-09db82f3855a",
+	  "email": "eli.vance@blackmesa.research",
+	  "name": "Eli Vance"
+    },
 
     //The fingerprint of this error.
     //This parameter is usually omitted, it is used if you want to override the default slipspace grouping algorithm.

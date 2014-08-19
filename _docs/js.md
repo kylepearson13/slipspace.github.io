@@ -3,6 +3,9 @@ layout: docs
 title: JavaScript Documentation
 ---
 
+##JavaScript
+We provide support for tracking errors that occur in your JavaScript applications
+
 ##Getting started
 
 We have a few ways you can install slipspace in your JavaScript project. The library has no dependencies so you can install it on any old website.

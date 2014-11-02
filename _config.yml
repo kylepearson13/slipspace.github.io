@@ -20,5 +20,7 @@ collections:
     output: true
   press:
     output: true
+  blog:
+    output: true
 
   

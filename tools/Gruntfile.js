@@ -58,6 +58,7 @@ module.exports = function (grunt) {
                 '../_docs/*.md',
                 '../scripts/site.js',
                 '../_press/*.md',
+                '../_blog/*.md',
                 '../_layouts/*.html',
                 '../_posts/*.md',
                 '../css/main.css',
